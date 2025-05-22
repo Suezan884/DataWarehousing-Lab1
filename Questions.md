@@ -16,7 +16,7 @@ ETL Simplicity: While ETL can be complex, loading data into a star schema can so
 
 Separating facts from dimensions is a cornerstone of dimensional modeling and offers several significant benefits:
 
-Improved Query Performance:
+Improved Query Performance:Separating facts from dimensions makes queries faster because it keeps facts and dimensions in different places.
 
 Reduced Joins: As mentioned above, it minimizes the number of joins required for analytical queries.
 
